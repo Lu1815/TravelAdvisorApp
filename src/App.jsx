@@ -47,7 +47,7 @@ const App = () => {
     }, [type, bounds]);
 
     return (
-        <div>
+        <div style={{ backgroundColor: '#0A1929' }}>
             <CssBaseline/>
             <Header setCoordinates={setCoordinates}/>
             <Grid container spacing={3} style={{width: '100%'}}>

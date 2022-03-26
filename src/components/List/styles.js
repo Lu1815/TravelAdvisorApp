@@ -25,4 +25,24 @@ export default makeStyles((theme) => ({
         height: '75vh',
         overflow: 'auto',
     },
+    select: {
+        '&:before': {
+            borderColor: 'white',
+        },
+        '&:after': {
+            borderColor: 'white',
+        },
+        '&:not(.Mui-disabled):hover::before': {
+            borderColor: 'white',
+        },
+    },
+    icon: {
+        fill: 'white',
+    },
+    root: {
+        color: 'white',
+    },
+    label: {
+        color: 'white',
+    },
 }));

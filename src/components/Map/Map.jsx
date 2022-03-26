@@ -35,9 +35,9 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked, 
                         key={i}
                     >
                         {
-                            !isDesktop ? (
-                                <LocationOnOutlinedIcon color="primary" fontSize="large" />
-                            ) : (
+                            // !isDesktop ? (
+                            //     <LocationOnOutlinedIcon color="primary" fontSize="large" />
+                            // ) : (
                                 <Paper elevation={3} className={classes.paper}>
                                     <Typography className={classes.typography} variant="subtitle2" gutterBottom>
                                         {place.name}
@@ -49,7 +49,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked, 
                                     />
                                     <Rating size="small" value={Number(place.rating)} readOnly />
                                 </Paper>
-                            )
+                            // )
                         }
                     </div>
                 ))}
